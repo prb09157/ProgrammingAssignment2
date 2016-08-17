@@ -1,6 +1,6 @@
 # Assignment:Caching the Inverse of a Matrix
 # Matrix inversion can be a costly computation, with this there may be some 
-# advantage to caching the inverse of a matrix compared with computing it ##repeatedly.
+# advantage to caching the inverse of a matrix compared with computing it repeatedly.
 # Examples below show a pair of functions that are used to create a unique  
 # object that cache the inverse of a matrix.
 
@@ -20,7 +20,7 @@ MakeCache <- function(x = matrix()) {
 
 
 # The below function computes the inverse of the unique "matrix" from the
-# MakeCacheMatrix above. It checks if the inverse has already been calculated,
+# MakeCache above. It checks if the inverse has already been calculated,
 # if so it gets the result and skips the computation, otherwise it should 
 # then retrieve the inverse from the cache.
 
